@@ -72,9 +72,14 @@ Functionality -- 80
 
 README Quality -- 20
 
-10 -- A description of what you have created. Screenshots are helpful.  
+5 -- A description of what you have created. Screenshots are helpful.  
 10 -- A working link to hosted files  
+5 -- Section for Technical and Design Achievements
 
-Technical Achievement -- 10
+Technical Achievement -- 10  
 Design Achievement -- 10
+
+Remember, it is up to *you* to define what constitutes a technical and design achievements.
+Be ambitious as these are designed to allow you to shape your learning.
+These are the only way to move from B to A territory.
 
