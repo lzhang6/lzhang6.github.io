@@ -1,10 +1,49 @@
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>assignment-1 lzhang6@wpi.edu</title>
+</head>
+<body>
+<!-- reference
+1. https://www.w3.org/TR/SVG/shapes.html#PolylineElement
+2. http://d3.decembercafe.org/
+-->
+<svg>
+    <rect id="canvas_rect"></rect>
+    <circle></circle>
+    <rect id="internal_rect"></rect>
+    <ellipse></ellipse>
+    <line></line>
+    <polygon></polygon>
+</svg>
 
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
-  console.log(d3); // test if d3 is loaded
-  // Add an SVG
-  // Add Rectangles
-  // Add Circles
-  // Add Lines
-  // Add Polygons
+    var svg = d3.select("svg")
+    svg.attr("width", 1000).attr("height", 500)
+
+    var rect = d3.select("#canvas_rect")
+    rect.attr("x", 20).attr("y", 20).attr("width", 960).attr("height", 460).attr("stroke-width", 10).attr("stroke", "navy").attr("fill", "white")
+
+    var circle = d3.select("circle")
+    circle.attr("cx", 150).attr("cy", 150).attr("r", 100).attr("fill", "red").attr("stroke-width", 10).attr("stroke", "navy")
+
+    var inter_rect = d3.select("#internal_rect")
+    inter_rect.attr("x", 300).attr("y", 50).attr("width", 200).attr("height", 200).attr("stroke-width", 10).attr("stroke", "navy").attr("fill", "green")
+
+    var ellipse = d3.select("ellipse")
+    ellipse.attr("cx", 750).attr("cy", 150).attr("rx", 200).attr("ry", 100).attr("fill", "yellow").attr("stroke-width", 10).attr("stroke", "navy")
+
+    var line = d3.select("line")
+    line.attr("x1", 20).attr("y1", 300).attr("x2", 980).attr("y2", 300).attr("stroke-width", 10).attr("stroke", "red")
+
+    var polygon = d3.select("polygon")
+    polygon.attr("stroke-width", 10).attr("stroke", "red").attr("fill", "blue")
+        .attr("points", "300,450 500,300 800,375")
+
 </script>
+
+</body>
+</html>
