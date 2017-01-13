@@ -12,5 +12,5 @@ Link:
 https://github.com/lzhang6/01-ghd3/
 
 Tech and desgin Achievement
-1. tech: learn how to use d3 to select object and change attribution
+1. tech: learn how to use d3 to select object and change attribution  
 2. design: the layout of all kinds of object need to adjust continuesly.
