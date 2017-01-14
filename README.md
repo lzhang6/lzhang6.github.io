@@ -10,7 +10,8 @@ Description:
 
 Link:   
 https://lzhang6.github.io/01-ghd3/index.html   
-Propose to use "chrome" to open it.   
+Propose to use "chrome" to open it.  
+and select "load unsafe script"
 ![image](./Screen%20Shot%20.png)
 
 Tech and desgin Achievement   
