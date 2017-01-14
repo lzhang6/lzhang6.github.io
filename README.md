@@ -9,7 +9,7 @@ Description:
 2. change the attribution using .attr() function.   
 
 Link:   
-https://github.com/lzhang6/01-ghd3/   
+https://lzhang6.github.io/01-ghd3/index.html   
 
 Tech and desgin Achievement   
 1. tech: learn how to use d3 to select object and change attribution     
