@@ -10,6 +10,8 @@ Description:
 
 Link:   
 https://lzhang6.github.io/01-ghd3/index.html   
+Propose to use "chrome" to open it.   
+![image](./Screen%20Shot%20.png)
 
 Tech and desgin Achievement   
 1. tech: learn how to use d3 to select object and change attribution     
